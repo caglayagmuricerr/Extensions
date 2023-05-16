@@ -1,0 +1,12 @@
+{
+    "name": "Download What You Wrote",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Adds a textarea field to the right side of the page and downloads whatever is written inside of it as txt.",
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }

@@ -1,0 +1,18 @@
+{
+    "manifest_version" : 3,
+    "name" : "SiteBlocker",
+    "version" : "0.0.1",
+    "description" : "Blocks YouTube and Netflix.",
+    "author" : "Çağla Yağmur İçer",
+
+    "content_scripts": [
+        {
+          "matches": [
+            "<all_urls>"
+          ],
+          "js": [
+            "content.js"
+          ]
+        }
+    ]
+}
